@@ -1,0 +1,160 @@
+baseURL = "/"
+title = "Quebit"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "Quebit" # title for frontpage, may include image
+img = "img/pic01.jpg"
+copyright = "quebit"
+description = 'Traffic optimisation<br />and analysis'
+startbuttonText = "Get in Contact"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+images = ["img/pic01.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one ]
+enable = true
+style="1"
+title = 'End-to-end traffic control solutions'
+body = "Take control of your traffic with our comprehensive end-to-end traffic control solution. Our solution offers a seamless and integrated approach to traffic management, from data collection to analysis and decision-making. Say goodbye to disparate systems and hello to a unified solution that delivers real-time insights and informed decision-making. Enhance safety, reduce congestion, and improve the overall efficiency of your traffic management with our solution. Invest in the future of traffic control and experience the power of a complete end-to-end solution."
+
+[[params.one.icon]]
+icon = "fa-car"
+style = "1"
+
+[[params.one.icon]]
+icon = "fa-laptop"
+style = "1"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "1"
+label = "Dolor"
+
+[[params.one.icon]]
+icon = "fa-road"
+style = "1"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "images/traffic_counts.jpg"
+title = 'Data Collection'
+body = 'Unlock the full potential of your business with our state-of-the-art traffic data collection technology. Stay ahead of the competition and make informed decisions based on real-time traffic information. Our system provides accurate and reliable data, allowing you to monitor traffic patterns, optimize routes and improve customer satisfaction. Say goodbye to manual data collection and hello to real-time insights. Invest in our traffic data collection technology today and take the first step towards a smarter, more efficient business.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Simulate'
+body = 'Simulate real-world traffic scenarios with our advanced traffic simulation software. Gain a competitive edge by analyzing traffic patterns, testing new ideas, and predicting future trends. Our software uses cutting-edge technology to accurately model traffic behavior, giving you an accurate representation of the traffic environment. Make data-driven decisions and optimize your traffic management strategies with ease. Invest in our traffic simulation software today and experience the power of predictive analytics.'
+video = true
+
+[[params.two.section]]
+img = "images/optimise.jpg"
+title = 'Optimise'
+body = 'Optimize your traffic flow with our cutting-edge traffic light optimization using simulation technology. Our solution provides real-time analysis of traffic patterns, allowing you to make informed decisions and improve traffic flow. By using simulation technology, we accurately model the behavior of traffic, giving you a clear understanding of how changes to the traffic lights will impact flow. Enhance road safety, reduce congestion and improve traffic efficiency with our innovative solution. Invest in the future of traffic management and take advantage of the benefits of traffic light optimization using simulation today.'
+
+[[params.two.section]]
+img = "images/integrate.jpg"
+title = 'Integrate'
+body = "Simplify your traffic management with our software's seamless integration with traffic controller hardware. Our software is designed to work in perfect harmony with your existing traffic control system, allowing for smooth and efficient communication between the two. With this integration, you can monitor, control, and make real-time adjustments to your traffic lights, improving traffic flow and reducing congestion. Say goodbye to manual processes and hello to an integrated and automated traffic management solution. Invest in our software and experience the power of seamless integration with your traffic controller hardware today."
+
+
+
+[params.three]
+enable = true
+title = 'Accumsan mus tortor nunc aliquet'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane-o"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-headphones"
+title = "Baz kram"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "Some latin text"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Nothing important"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+facebook = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
