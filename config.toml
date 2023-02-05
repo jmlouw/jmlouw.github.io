@@ -8,7 +8,7 @@ theme = "spectral"
 [params]
 fancyTitle = "Quebit" # title for frontpage, may include image
 img = "img/pic01.jpg"
-copyright = "quebit"
+copyright = "quebit" #
 description = 'Traffic optimisation<br />and analysis'
 startbuttonText = "Get in Contact"
 startbuttonLink = "#"
