@@ -82,7 +82,7 @@ body = "Simplify your traffic management with our software's seamless integratio
 
 [params.three]
 enable = true
-title = 'Accumsan mus tortor nunc aliquet'
+title = 'Vehicle Identification'
 body = '''
 Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
 fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
@@ -108,30 +108,30 @@ icon = "fa-headphones"
 title = "Baz kram"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "fa-heart-o"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "fa-heart-o"
+# title = "Some latin text"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# 
+# [[params.three.feature]]
+# icon = "fa-flag-o"
+# title = "Nothing important"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "fa-flag-o"
-title = "Nothing important"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[params.cta]
-enable = true
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
-
-[[params.cta.link]]
-href = "#"
-text = "Activate"
-special = true
-
-[[params.cta.link]]
-href = "#"
-text = "Learn More"
-special = false
+# [params.cta]
+# enable = true
+# title = "Arcue ut vel commodo"
+# body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+# 
+# [[params.cta.link]]
+# href = "#"
+# text = "Activate"
+# special = true
+# 
+# [[params.cta.link]]
+# href = "#"
+# text = "Learn More"
+# special = false
 
 [params.contact]
 enable = true
