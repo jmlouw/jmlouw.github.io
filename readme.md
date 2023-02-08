@@ -25,3 +25,9 @@ hugo server -D
 Start editing the content in the content folder. 
 
 When ready push to main branch and the site will be automatically deployed.
+
+## Adding a new post
+
+```bash
+hugo new posts/my-new-post.md
+```
