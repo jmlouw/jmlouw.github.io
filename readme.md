@@ -31,5 +31,3 @@ When ready push to main branch and the site will be automatically deployed.
 ```bash
 hugo new posts/my-new-post.md
 ```
-
-#
