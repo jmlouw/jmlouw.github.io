@@ -80,33 +80,33 @@ body = "Simplify your traffic management with our software's seamless integratio
 
 
 
-[params.three]
-enable = true
-title = 'Vehicle Identification'
-body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-'''
-
-[[params.three.feature]]
-icon = "fa-paper-plane-o"
-title = "Arcu accumsan"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "fa-laptop"
-title = "Ac Augue Eget"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "fa-code"
-title = "Foo bar"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "fa-headphones"
-title = "Baz kram"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [params.three]
+# enable = true
+# title = 'Vehicle Identification'
+# body = '''
+# Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+# fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+# '''
+# 
+# [[params.three.feature]]
+# icon = "fa-paper-plane-o"
+# title = "Arcu accumsan"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# 
+# [[params.three.feature]]
+# icon = "fa-laptop"
+# title = "Ac Augue Eget"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# 
+# [[params.three.feature]]
+# icon = "fa-code"
+# title = "Foo bar"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# 
+# [[params.three.feature]]
+# icon = "fa-headphones"
+# title = "Baz kram"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 # [[params.three.feature]]
 # icon = "fa-heart-o"
