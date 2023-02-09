@@ -2,9 +2,9 @@
 
 {{ with .Site.Params.two }}
 {{ if .enable }}
-<section id="two" class="wrapper alt style2">
+<section id="two" class="wrapper alt style2 ">
   {{ range .section }}
-	<section class="spotlight">
+	<section class="spotlight container reveal">
     {{ if .video}}
     <video class="image" autoplay controls>
       <source src="videos/pan.m4v" type="video/mp4">

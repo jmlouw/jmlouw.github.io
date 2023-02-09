@@ -1,7 +1,16 @@
 <section id="banner">
-	<div class="inner">
-    <h2>{{ .Site.Params.fancytitle | safeHTML }}</h2>
-    <p>{{ .Site.Params.description | safeHTML }}</p>
+  <img class="fl y3 background" src="images/intersection.jpg" />
+  <div class="inner">
+    <h2 class="scroll-text">
+      <span class="fl y3">Q</span>
+      <span class="fl y1">U</span>
+      <span class="fl y4">E</span>
+      <span class="fl y2">B</span>
+      <span class="fl y4">I</span>
+      <span class="fl y1">T</span>
+    </h2>
+    <!-- <h2>{{ .Site.Params.fancytitle | safeHTML }}</h2> -->
+    <p class="fl y1">{{ .Site.Params.description | safeHTML }}</p>
     {{ if and .Site.Params.startbuttonText .Site.Params.startbuttonLink }}
 		<ul class="actions special">
       <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary">{{ .Site.Params.StartbuttonText }}</a></li>
@@ -10,3 +19,5 @@
 	</div>
   <a href="#one" class="more scrolly">{{ i18n "learnmore" }}</a>
 </section>
+
+
