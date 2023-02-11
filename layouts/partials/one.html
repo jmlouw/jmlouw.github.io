@@ -2,11 +2,11 @@
 
 {{ with .Site.Params.one }}
 {{ if .enable }}
-	<section id="one" class="wrapper style1 special container reveal">
+	<section id="one" class="wrapper style1 special container">
 		<div class="inner">
 			<header class="major">
 				
-        <h2>{{ .title | safeHTML}}</h2>
+        <h2 class="reveal">{{ .title | safeHTML}}</h2>
 
         {{ partial "body_text.html" (dict "context" . "md" $md) }}
 			</header>
