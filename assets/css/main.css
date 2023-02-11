@@ -2687,6 +2687,10 @@ button.primary,
 	background-color: #76b900;
 	box-shadow: none !important;
 	color: #ffffff !important;
+	/* lower position */
+	position: relative;
+	top: 150px;
+
 }
 
 input[type="submit"].primary:hover,
@@ -3949,7 +3953,7 @@ body.is-menu-visible #menu {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 			}
 
@@ -4333,6 +4337,7 @@ p font-family helvetica {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #151515;
 }
 
 video {
