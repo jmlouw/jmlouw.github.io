@@ -146,25 +146,95 @@ function reveal() {
 // window.requestAnimationFrame(scrollPlay);
 
 
-const registerVideo = (bound, video) => {
-	bound = document.querySelector(bound);
-	video = document.querySelector(video);
-	const scrollVideo = ()=>{
-		if(video.duration) {
-			const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
-			const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
-			const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
-			
-			video.currentTime = video.duration * percentScrolled;
-		}
-		requestAnimationFrame(scrollVideo);
-	}
-	requestAnimationFrame(scrollVideo);
+// const registerVideo = (bound, video) => {
+// 	bound = document.querySelector(bound);
+// 	video = document.querySelector(video);
+// 	const scrollVideo = ()=>{
+// 		if(video.duration) {
+// 			const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
+// 			const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
+// 			const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
+
+// 			video.currentTime = video.duration * percentScrolled;
+// 		}
+// 		requestAnimationFrame(scrollVideo);
+// 	}
+// 	requestAnimationFrame(scrollVideo);
+// }
+
+
+// registerVideo("#bound-one", "#bound-one video");
+
+// registerVideo("#bound-two", "#bound-two video")
+
+// registerVideo("#bound-three", "#bound-three video")
+
+
+
+//* Encoding is important!!!
+
+gsap.registerPlugin(ScrollTrigger);
+
+const vehRecVid = document.querySelector("#vehrecvid");
+
+let vehrecTl = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#vehrec",
+    start: "top top",
+    end: "bottom+=200% bottom",
+    scrub: true,
+    // markers: true,
+	pin: true
+  }
+});
+
+// wait until video metadata is loaded, so we can grab the proper duration before adding the onscroll animation. Might need to add a loader for loonng videos
+vehRecVid.onloadedmetadata = function () {
+  vehrecTl.to(vehRecVid, { currentTime: vehRecVid.duration });
+};
+
+// Dealing with devices
+function isTouchDevice() {
+  return (
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    navigator.msMaxTouchPoints > 0
+  );
+}
+if (isTouchDevice()) {
+  vehRecVid.play();
+  vehRecVid.pause();
 }
 
+gsap.registerPlugin(ScrollTrigger);
 
-registerVideo("#bound-one", "#bound-one video");
+const toVid = document.querySelector("#tovideo");
 
-registerVideo("#bound-two", "#bound-two video")
+let ToTl = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#to",
+    start: "top top",
+    end: "bottom+=200% bottom",
+    scrub: true,
+    // markers: true,
+	pin: true
+  }
+});
 
-registerVideo("#bound-three", "#bound-three video")
+// wait until video metadata is loaded, so we can grab the proper duration before adding the onscroll animation. Might need to add a loader for loonng videos
+toVid.onloadedmetadata = function () {
+	ToTl.to(toVid, { currentTime: toVid.duration });
+};
+
+// Dealing with devices
+function isTouchDevice() {
+  return (
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    navigator.msMaxTouchPoints > 0
+  );
+}
+if (isTouchDevice()) {
+  toVid.play();
+  toVid.pause();
+}
