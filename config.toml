@@ -80,33 +80,33 @@ body = "Simplify your traffic management with our software's seamless integratio
 
 
 
-# [params.three]
-# enable = true
-# title = 'Vehicle Identification'
-# body = '''
-# Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-# fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-# '''
-# 
-# [[params.three.feature]]
-# icon = "fa-paper-plane-o"
-# title = "Arcu accumsan"
-# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-# 
-# [[params.three.feature]]
-# icon = "fa-laptop"
-# title = "Ac Augue Eget"
-# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-# 
-# [[params.three.feature]]
-# icon = "fa-code"
-# title = "Foo bar"
-# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-# 
-# [[params.three.feature]]
-# icon = "fa-headphones"
-# title = "Baz kram"
-# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+ [params.three]
+ enable = true
+ title = 'Vehicle Recognition'
+ body = '''
+ Use our state-of-the-art vehicle recognition technology to monitor traffic.
+ '''
+ 
+ [[params.three.feature]]
+ icon = "fa-car"
+ title = "Vehicle counts"
+ body = "Revolutionize the way you monitor traffic with our cutting-edge vehicle counting program! Say goodbye to manual counting methods and hello to precise, real-time data thanks to our advanced image processing technology."
+ 
+ [[params.three.feature]]
+ icon = "fa-bus"
+ title = "Classification"
+ body = "Experience the future of vehicle surveillance with our state-of-the-art vehicle classification program. Get detailed information on not just the number of vehicles, but also their color and classification into 17 different categories, all made possible through cutting-edge technology and algorithms."
+ 
+ [[params.three.feature]]
+ icon = "fa-motorcycle"
+ title = "OCR"
+ body = "Streamline your traffic management with our innovative number plate recognition program. Say goodbye to manual data entry and hello to real-time, automatic updates that accurately track and store vehicle information. And with the added ability to generate automated fines, you can ensure that traffic regulations are upheld with ease."
+ 
+ [[params.three.feature]]
+ icon = "fa-bolt"
+ title = "Fast API"
+ body = "Unleash the power of lightning-fast traffic management with our API-based solution. Our API seamlessly integrates all of our vehicle counting, classification, and number plate recognition technologies, providing you with immediate and accurate data in real-time, allowing you to make informed decisions quickly and efficiently."
+
 
 # [[params.three.feature]]
 # icon = "fa-heart-o"

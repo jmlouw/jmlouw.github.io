@@ -6,7 +6,7 @@
 		<div class="inner">
 			<header class="major">
 				
-        <h2 class="reveal">{{ .title | safeHTML}}</h2>
+        <h2>{{ .title | safeHTML}}</h2>
 
         {{ partial "body_text.html" (dict "context" . "md" $md) }}
 			</header>

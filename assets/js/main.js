@@ -175,16 +175,28 @@ function reveal() {
 
 gsap.registerPlugin(ScrollTrigger);
 
+// gsap.to(".content", {
+// 	ease: "none",
+// 	scrollTrigger: {
+// 		trigger: ".pSection",
+// 		start: "10% 80%", // the default values
+// 		end: "bottom top",
+// 		scrub: true,
+// 		//   markers: true,
+// 	},
+// });
+
 const toVid = document.querySelector("#tovideo");
 let ToTl = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#to",
-    start: "top top",
-    end: "bottom+=200% bottom",
-    scrub: true,
-    // markers: true,
-	pin: true
-  }
+	// yPercent: -100,
+	scrollTrigger: {
+		trigger: "#to",
+		start: "top bottom",
+		// end: "bottom+=200% bottom",
+		scrub: true,
+		// markers: true,
+		// pin: true
+	}
 });
 // wait until video metadata is loaded, so we can grab the proper duration before adding the onscroll animation. Might need to add a loader for loonng videos
 toVid.onloadedmetadata = function () {
@@ -192,15 +204,15 @@ toVid.onloadedmetadata = function () {
 };
 // Dealing with devices
 function isTouchDevice() {
-  return (
-    "ontouchstart" in window ||
-    navigator.maxTouchPoints > 0 ||
-    navigator.msMaxTouchPoints > 0
-  );
+	return (
+		"ontouchstart" in window ||
+		navigator.maxTouchPoints > 0 ||
+		navigator.msMaxTouchPoints > 0
+	);
 }
 if (isTouchDevice()) {
-  toVid.play();
-  toVid.pause();
+	toVid.play();
+	toVid.pause();
 }
 
 
@@ -208,30 +220,30 @@ if (isTouchDevice()) {
 const vehRecVid = document.querySelector("#vehrecvid");
 
 let vehrecTl = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#vehrec",
-    start: "top top",
-    end: "bottom+=200% bottom",
-    scrub: true,
-    // markers: true,
-	pin: true
-  }
+	scrollTrigger: {
+		trigger: "#vehrec",
+		start: "top top",
+		end: "bottom+=200% bottom",
+		scrub: true,
+		// markers: true,
+		pin: true
+	}
 });
 
 // wait until video metadata is loaded, so we can grab the proper duration before adding the onscroll animation. Might need to add a loader for loonng videos
 vehRecVid.onloadedmetadata = function () {
-  vehrecTl.to(vehRecVid, { currentTime: vehRecVid.duration });
+	vehrecTl.to(vehRecVid, { currentTime: vehRecVid.duration });
 };
 
 // Dealing with devices
 function isTouchDevice() {
-  return (
-    "ontouchstart" in window ||
-    navigator.maxTouchPoints > 0 ||
-    navigator.msMaxTouchPoints > 0
-  );
+	return (
+		"ontouchstart" in window ||
+		navigator.maxTouchPoints > 0 ||
+		navigator.msMaxTouchPoints > 0
+	);
 }
 if (isTouchDevice()) {
-  vehRecVid.play();
-  vehRecVid.pause();
+	vehRecVid.play();
+	vehRecVid.pause();
 }
