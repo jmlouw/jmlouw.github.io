@@ -175,6 +175,36 @@ function reveal() {
 
 gsap.registerPlugin(ScrollTrigger);
 
+const toVid = document.querySelector("#tovideo");
+let ToTl = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#to",
+    start: "top top",
+    end: "bottom+=200% bottom",
+    scrub: true,
+    // markers: true,
+	pin: true
+  }
+});
+// wait until video metadata is loaded, so we can grab the proper duration before adding the onscroll animation. Might need to add a loader for loonng videos
+toVid.onloadedmetadata = function () {
+	ToTl.to(toVid, { currentTime: toVid.duration });
+};
+// Dealing with devices
+function isTouchDevice() {
+  return (
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    navigator.msMaxTouchPoints > 0
+  );
+}
+if (isTouchDevice()) {
+  toVid.play();
+  toVid.pause();
+}
+
+
+
 const vehRecVid = document.querySelector("#vehrecvid");
 
 let vehrecTl = gsap.timeline({
@@ -204,37 +234,4 @@ function isTouchDevice() {
 if (isTouchDevice()) {
   vehRecVid.play();
   vehRecVid.pause();
-}
-
-gsap.registerPlugin(ScrollTrigger);
-
-const toVid = document.querySelector("#tovideo");
-
-let ToTl = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#to",
-    start: "top top",
-    end: "bottom+=200% bottom",
-    scrub: true,
-    // markers: true,
-	pin: true
-  }
-});
-
-// wait until video metadata is loaded, so we can grab the proper duration before adding the onscroll animation. Might need to add a loader for loonng videos
-toVid.onloadedmetadata = function () {
-	ToTl.to(toVid, { currentTime: toVid.duration });
-};
-
-// Dealing with devices
-function isTouchDevice() {
-  return (
-    "ontouchstart" in window ||
-    navigator.maxTouchPoints > 0 ||
-    navigator.msMaxTouchPoints > 0
-  );
-}
-if (isTouchDevice()) {
-  toVid.play();
-  toVid.pause();
 }
