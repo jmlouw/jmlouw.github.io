@@ -2687,10 +2687,6 @@ button.primary,
 	background-color: #76b900;
 	box-shadow: none !important;
 	color: #ffffff !important;
-	/* lower position */
-	position: relative;
-	top: 150px;
-
 }
 
 input[type="submit"].primary:hover,
@@ -4294,7 +4290,7 @@ body.is-mobile.landing #footer {
 video {
 	position: absolute;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	object-fit: cover;
 }
 
