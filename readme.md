@@ -16,6 +16,11 @@ Clone the repo with submodules:
 git clone --recurse-submodules -j8 git@github.com:quebitransport/quebitransport.github.io.git
 ```
 
+If you already cloned the clone, run the following to recursivly clone the submodules:
+```bash
+git submodule update --init --recursive
+```
+
 cd into the repo and run hugo:
 ```bash
 cd quebitransport.github.io
