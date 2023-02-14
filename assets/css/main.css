@@ -4245,7 +4245,7 @@ body.is-mobile.landing #footer {
 .scroll-text {
 	/* position: absolute; */
 	/* transform: translate(-50%, -50%); */
-	white-space: nowrap;
+	/* white-space: nowrap; */
 }
 
 .scroll-text span.fl {
