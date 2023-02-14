@@ -222,11 +222,11 @@ const vehRecVid = document.querySelector("#vehrecvid");
 let vehrecTl = gsap.timeline({
 	scrollTrigger: {
 		trigger: "#vehrec",
-		start: "top top",
+		start: "top bottom",
 		end: "bottom+=200% bottom",
 		scrub: true,
 		// markers: true,
-		pin: true
+		// pin: true
 	}
 });
 
