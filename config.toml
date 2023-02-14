@@ -9,7 +9,7 @@ theme = "spectral"
 fancyTitle = "Quebit" # title for frontpage, may include image
 img = "img/pic01.jpg"
 copyright = "quebit"
-description = 'Putting Robots in Robots'
+description = 'Where Traffic Meets Technology'
 startbuttonText = "Get in Contact"
 startbuttonLink = "#"
 body_is_markdown = true
@@ -33,7 +33,8 @@ title = "Posts"
 enable = true
 style="1"
 title = 'End-to-end traffic control solutions'
-body = "Take control of your traffic with our comprehensive end-to-end traffic control solution. Our solution offers a seamless and integrated approach to traffic management, from data collection to analysis and decision-making. Say goodbye to disparate systems and hello to a unified solution that delivers real-time insights and informed decision-making. Enhance safety, reduce congestion, and improve the overall efficiency of your traffic management with our solution. Invest in the future of traffic control and experience the power of a complete end-to-end solution."
+body = "Take control of your traffic with our comprehensive end-to-end traffic management solutions. Our solutions offer a seamless and integrated approach to traffic management, from data collection to analysis and decision-making. Our solutions have been designed to keep pace with the dynamic nature of traffic patterns. Say goodbye to constant updates and hello to a solution that delivers real-time insights and up-to-date decision-making. Enhance safety, reduce congestion, and improve the overall efficiency of your traffic management with our solutions. Invest in the future of traffic control and experience the power of artificial intelligence. Keep scrolling to find out more about our solutions."
+
 
 [[params.one.icon]]
 icon = "fa-car"
@@ -59,24 +60,25 @@ enable = true
 
 [[params.two.section]]
 img = "images/traffic_counts.jpg"
-title = 'Data Collection'
-body = 'Unlock the full potential of your business with our state-of-the-art traffic data collection technology. Stay ahead of the competition and make informed decisions based on real-time traffic information. Our system provides accurate and reliable data, allowing you to monitor traffic patterns, optimize routes and improve customer satisfaction. Say goodbye to manual data collection and hello to real-time insights. Invest in our traffic data collection technology today and take the first step towards a smarter, more efficient business.'
+title = 'Monitor'
+body = "With our technology, you can monitor traffic patterns in real-time, providing you with up-to-date information that you can use to optimize routes and improve driver satisfaction. Our system collects and analyzes vast amounts of traffic data, allowing you to identify trends and make informed decisions that can help you stay ahead of the traffic. No more manual data collection, no more guesswork. With our monitoring technology, you'll have access to real-time insights that can help you make the right decisions, at the right time. Whether you're looking to improve delivery times, reduce traffic congestion, or provide a better driver experience, our technology can help you achieve your goals. See more in our Vehicle Recognition section."
+
 
 [[params.two.section]]
 img = "img/pic02.jpg"
 title = 'Simulate'
-body = 'Simulate real-world traffic scenarios with our advanced traffic simulation software. Gain a competitive edge by analyzing traffic patterns, testing new ideas, and predicting future trends. Our software uses cutting-edge technology to accurately model traffic behavior, giving you an accurate representation of the traffic environment. Make data-driven decisions and optimize your traffic management strategies with ease. Invest in our traffic simulation software today and experience the power of predictive analytics.'
+body = 'Simulate real-world traffic scenarios with our advanced traffic simulation software. Gain invaluable insights by analyzing traffic patterns, testing new ideas, and predicting future trends. Our software uses collected real-time data to accurately model traffic behavior, giving you an accurate representation of the traffic environment. Make data-driven decisions and optimize your traffic management strategies with ease. Invest in our traffic simulation software today and experience the power of predictive analytics.'
 video = true
 
 [[params.two.section]]
 img = "images/optimise.jpg"
 title = 'Optimise'
-body = 'Optimize your traffic flow with our cutting-edge traffic light optimization using simulation technology. Our solution provides real-time analysis of traffic patterns, allowing you to make informed decisions and improve traffic flow. By using simulation technology, we accurately model the behavior of traffic, giving you a clear understanding of how changes to the traffic lights will impact flow. Enhance road safety, reduce congestion and improve traffic efficiency with our innovative solution. Invest in the future of traffic management and take advantage of the benefits of traffic light optimization using simulation today.'
+body = 'Optimize your traffic flow with our cutting-edge traffic light optimization using simulation. By developing a framework in which we can integrate cutting edge artificial intelligence and simulation we are able to capture the stochastic nature of traffic patterns when optimizing. Our algorithms learn a philosophy of how to manage traffic and are capable of learning the optimal approach to manage varying traffic patterns, ensuring that they remain relevant and effective even as traffic patterns evolve. So why settle for outdated, inflexible traffic management systems when you can optimize your traffic flow with Quebit? Our cutting-edge technology, combined with our commitment to excellence, makes us the clear choice for anyone looking to take their traffic management to the next level.'
 
 [[params.two.section]]
 img = "images/integrate.jpg"
 title = 'Integrate'
-body = "Simplify your traffic management with our software's seamless integration with traffic controller hardware. Our software is designed to work in perfect harmony with your existing traffic control system, allowing for smooth and efficient communication between the two. With this integration, you can monitor, control, and make real-time adjustments to your traffic lights, improving traffic flow and reducing congestion. Say goodbye to manual processes and hello to an integrated and automated traffic management solution. Invest in our software and experience the power of seamless integration with your traffic controller hardware today."
+body = "Keep things simple with our software’s seamless integration with traffic controller hardware. Our software is designed to work in perfect harmony with your existing traffic control system, allowing for smooth, safe and efficient communication between the two. Our solutions are able to adapt to the current infrastructure of your intersection and do not require costly sensor installation."
 
 
 
@@ -95,12 +97,12 @@ body = "Simplify your traffic management with our software's seamless integratio
  [[params.three.feature]]
  icon = "fa-bus"
  title = "Classification"
- body = "Experience the future of vehicle surveillance with our state-of-the-art vehicle classification program. Get detailed information on not just the number of vehicles, but also their color and classification into 17 different categories, all made possible through cutting-edge technology and algorithms."
+ body = "Experience the future of vehicle surveillance with our state-of-the-art vehicle classification program. Get fine-grained information about their color, make and category (17 different categories), all made possible through cutting-edge technology and algorithms."
  
  [[params.three.feature]]
  icon = "fa-motorcycle"
  title = "OCR"
- body = "Streamline your traffic management with our innovative number plate recognition program. Say goodbye to manual data entry and hello to real-time, automatic updates that accurately track and store vehicle information. And with the added ability to generate automated fines, you can ensure that traffic regulations are upheld with ease."
+ body = "Streamline your traffic management with our innovative number plate recognition program. Enjoy automatic updates that accurately track and store vehicle information. With the added ability to generate automated fines, you can ensure that traffic regulations are upheld with ease."
  
  [[params.three.feature]]
  icon = "fa-bolt"
