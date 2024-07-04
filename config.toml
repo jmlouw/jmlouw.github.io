@@ -33,7 +33,10 @@ title = "Posts"
 enable = true
 style="1"
 title = 'End-to-end traffic control solutions'
-body = "Take control of your traffic with our comprehensive end-to-end traffic management solutions. Our solutions offer a seamless and integrated approach to traffic management, from data collection to analysis and decision-making. Our solutions have been designed to keep pace with the dynamic nature of traffic patterns. Say goodbye to constant updates and hello to a solution that delivers real-time insights and up-to-date decision-making. Enhance safety, reduce congestion, and improve the overall efficiency of your traffic management with our solutions. Invest in the future of traffic control and experience the power of artificial intelligence. Keep scrolling to find out more about our solutions."
+body = """Quebit is an advanced AI-powered traffic management system designed to adapt quickly to changing traffic patterns in real time.
+It synchronises traffic signals within corridors to optimise traffic flow across city intersections. Our AI solution comes in a plug & play module that easily integrates with controllers supporting the UTMC protocol.
+Through a user-friendly web platform, Quebit provides complete system visibility, control, and smart alerts for effective traffic management. Improve safety, reduce congestion, and enhance overall traffic efficiency with Quebit.
+Invest in the future of traffic management. For more information, send us an contact us."""
 
 
 [[params.one.icon]]
@@ -61,25 +64,32 @@ enable = true
 [[params.two.section]]
 img = "images/traffic_counts.jpg"
 title = 'Monitor'
-body = "With our technology, you can monitor traffic patterns in real-time, providing you with up-to-date information that you can use to optimize routes and improve driver satisfaction. Our system collects and analyzes vast amounts of traffic data, allowing you to identify trends and make informed decisions that can help you stay ahead of the traffic. No more manual data collection, no more guesswork. With our monitoring technology, you'll have access to real-time insights that can help you make the right decisions, at the right time. Whether you're looking to improve delivery times, reduce traffic congestion, or provide a better driver experience, our technology can help you achieve your goals. See more in our Vehicle Recognition section."
+body = """
+Through a web-based platform, Quebit offers full system visibility and control. Stay up-to-date with Quebit. Monitor real-time traffic patterns, get smart alerts and have the latest traffic insights. 
+"""
 
+[[params.two.section]]
+img = "images/integrate.jpg"
+title = 'Integrate'
+body = """
+Keep it simple. The Quebit module seamlessly integrates with all traffic controller hardware supporting the UTMC protocol.
+Designed to work in perfect harmony with your existing traffic control system, allowing for smooth, safe and efficient communication between the two. 
+"""
 
 [[params.two.section]]
 img = "img/pic02.jpg"
 title = 'Simulate'
-body = 'Simulate real-world traffic scenarios with our advanced traffic simulation software. Gain invaluable insights by analyzing traffic patterns, testing new ideas, and predicting future trends. Our software uses collected real-time data to accurately model traffic behavior, giving you an accurate representation of the traffic environment. Make data-driven decisions and optimize your traffic management strategies with ease. Invest in our traffic simulation software today and experience the power of predictive analytics.'
+body = """
+Our advanced traffic simulation software uses real-world data to accurately model traffic behaviour, giving you an accurate representation of traffic patterns, and enabling data-driven decisions. Gain valuable insights and experience the power of predictive analytics with Quebit. 
+"""
 video = true
 
 [[params.two.section]]
 img = "images/optimise.jpg"
 title = 'Optimise'
-body = 'Optimize your traffic flow with our cutting-edge traffic light optimization using simulation. By developing a framework in which we can integrate cutting edge artificial intelligence and simulation we are able to capture the stochastic nature of traffic patterns when optimizing. Our algorithms learn a philosophy of how to manage traffic and are capable of learning the optimal approach to manage varying traffic patterns, ensuring that they remain relevant and effective even as traffic patterns evolve. So why settle for outdated, inflexible traffic management systems when you can optimize your traffic flow with Quebit? Our cutting-edge technology, combined with our commitment to excellence, makes us the clear choice for anyone looking to take their traffic management to the next level.'
-
-[[params.two.section]]
-img = "images/integrate.jpg"
-title = 'Integrate'
-body = "Keep things simple with our software’s seamless integration with traffic controller hardware. Our software is designed to work in perfect harmony with your existing traffic control system, allowing for smooth, safe and efficient communication between the two. Our solutions are able to adapt to the current infrastructure of your intersection and do not require costly sensor installation."
-
+body = """
+Quebit is revolutionising traffic management with cutting-edge vehicle counting technology. Say goodbye to manual data collection and guesswork. Using this real-time data, Quebit finds the optimal approach to manage varying traffic patterns, efficiently clearing queues and reducing traffic congestion. Don't settle for outdated systems, and let Quebit take your traffic management to the next level. 
+"""
 
 
  [params.three]
